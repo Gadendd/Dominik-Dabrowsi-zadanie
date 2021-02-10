@@ -37,14 +37,8 @@
 				}
 				System.out.println();
 			}
-			File f = new File("kwadrat.txt");
-			try{
-				FileWriter fw = new FileWriter(f);
-				fw.write(tekst);
-				fw.close();
-			} catch(IOException e){
-				System.out.println("BLAD: "+e.toString());
-			}
+		
+			
 			}else if(wybor.equals("prostokat"))
 			{
 			
@@ -78,15 +72,6 @@
 				System.out.println();
 			}
 			
-			
-			File f = new File("prostokat.txt");
-			try{
-				FileWriter fw = new FileWriter(f);
-				fw.write(tekst);
-				fw.close();
-			} catch(IOException e){
-				System.out.println("blad: "+e.toString());
-			}
 			
 		}
 		else if(wybor.equals("exit"))
